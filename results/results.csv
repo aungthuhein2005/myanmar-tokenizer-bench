@@ -1,0 +1,137 @@
+tokenizer,tokenizer_name,used_by,lang,lang_name,sentences,chars,utf8_bytes,tokens,syllables,tax,chars_per_token,tokens_per_syllable,sentences_in_context
+o200k,OpenAI o200k,"GPT-4o, GPT-4.1, o-series, gpt-oss",eng_Latn,English,1012,132977,133107,26878,,1.0,4.947,,4819
+o200k,OpenAI o200k,"GPT-4o, GPT-4.1, o-series, gpt-oss",mya_Mymr,Burmese,1012,164180,466539,85034,49954,3.164,1.931,1.702,1523
+o200k,OpenAI o200k,"GPT-4o, GPT-4.1, o-series, gpt-oss",tha_Thai,Thai,1012,127120,365868,53471,,1.989,2.377,,2422
+o200k,OpenAI o200k,"GPT-4o, GPT-4.1, o-series, gpt-oss",khm_Khmr,Khmer,1012,154223,436171,89681,,3.337,1.72,,1444
+o200k,OpenAI o200k,"GPT-4o, GPT-4.1, o-series, gpt-oss",lao_Laoo,Lao,1012,131071,361720,221144,,8.228,0.593,,585
+o200k,OpenAI o200k,"GPT-4o, GPT-4.1, o-series, gpt-oss",hin_Deva,Hindi,1012,132069,338084,42294,,1.574,3.123,,3062
+o200k,OpenAI o200k,"GPT-4o, GPT-4.1, o-series, gpt-oss",vie_Latn,Vietnamese,1012,139606,184617,40035,,1.49,3.487,,3235
+o200k,OpenAI o200k,"GPT-4o, GPT-4.1, o-series, gpt-oss",zho_Hans,Chinese (Simplified),1012,44259,121814,33581,,1.249,1.318,,3857
+cl100k,OpenAI cl100k,"GPT-4, GPT-3.5",eng_Latn,English,1012,132977,133107,27187,,1.0,4.891,,4764
+cl100k,OpenAI cl100k,"GPT-4, GPT-3.5",mya_Mymr,Burmese,1012,164180,466539,316731,49954,11.65,0.518,6.34,408
+cl100k,OpenAI cl100k,"GPT-4, GPT-3.5",tha_Thai,Thai,1012,127120,365868,118988,,4.377,1.068,,1088
+cl100k,OpenAI cl100k,"GPT-4, GPT-3.5",khm_Khmr,Khmer,1012,154223,436171,237885,,8.75,0.648,,544
+cl100k,OpenAI cl100k,"GPT-4, GPT-3.5",lao_Laoo,Lao,1012,131071,361720,259430,,9.542,0.505,,499
+cl100k,OpenAI cl100k,"GPT-4, GPT-3.5",hin_Deva,Hindi,1012,132069,338084,129663,,4.769,1.019,,999
+cl100k,OpenAI cl100k,"GPT-4, GPT-3.5",vie_Latn,Vietnamese,1012,139606,184617,66437,,2.444,2.101,,1949
+cl100k,OpenAI cl100k,"GPT-4, GPT-3.5",zho_Hans,Chinese (Simplified),1012,44259,121814,50869,,1.871,0.87,,2546
+llama3,Llama 3,Llama 3.x,eng_Latn,English,1012,132977,133107,27176,,1.0,4.893,,4766
+llama3,Llama 3,Llama 3.x,mya_Mymr,Burmese,1012,164180,466539,316730,49954,11.655,0.518,6.34,408
+llama3,Llama 3,Llama 3.x,tha_Thai,Thai,1012,127120,365868,60177,,2.214,2.112,,2152
+llama3,Llama 3,Llama 3.x,khm_Khmr,Khmer,1012,154223,436171,237875,,8.753,0.648,,544
+llama3,Llama 3,Llama 3.x,lao_Laoo,Lao,1012,131071,361720,238886,,8.79,0.549,,542
+llama3,Llama 3,Llama 3.x,hin_Deva,Hindi,1012,132069,338084,68628,,2.525,1.924,,1887
+llama3,Llama 3,Llama 3.x,vie_Latn,Vietnamese,1012,139606,184617,37814,,1.391,3.692,,3425
+llama3,Llama 3,Llama 3.x,zho_Hans,Chinese (Simplified),1012,44259,121814,34844,,1.282,1.27,,3717
+gemma3,Gemma 3,Gemma 3,eng_Latn,English,1012,132977,133107,28125,,1.0,4.728,,4605
+gemma3,Gemma 3,Gemma 3,mya_Mymr,Burmese,1012,164180,466539,66306,49954,2.358,2.476,1.327,1953
+gemma3,Gemma 3,Gemma 3,tha_Thai,Thai,1012,127120,365868,44404,,1.579,2.863,,2917
+gemma3,Gemma 3,Gemma 3,khm_Khmr,Khmer,1012,154223,436171,75135,,2.671,2.053,,1724
+gemma3,Gemma 3,Gemma 3,lao_Laoo,Lao,1012,131071,361720,72014,,2.56,1.82,,1798
+gemma3,Gemma 3,Gemma 3,hin_Deva,Hindi,1012,132069,338084,36532,,1.299,3.615,,3545
+gemma3,Gemma 3,Gemma 3,vie_Latn,Vietnamese,1012,139606,184617,38200,,1.358,3.655,,3390
+gemma3,Gemma 3,Gemma 3,zho_Hans,Chinese (Simplified),1012,44259,121814,30251,,1.076,1.463,,4282
+qwen3,Qwen 3,Qwen 3,eng_Latn,English,1012,132977,133107,27626,,1.0,4.813,,4688
+qwen3,Qwen 3,Qwen 3,mya_Mymr,Burmese,1012,164180,466539,247546,49954,8.961,0.663,4.955,523
+qwen3,Qwen 3,Qwen 3,tha_Thai,Thai,1012,127120,365868,71146,,2.575,1.787,,1820
+qwen3,Qwen 3,Qwen 3,khm_Khmr,Khmer,1012,154223,436171,179687,,6.504,0.858,,720
+qwen3,Qwen 3,Qwen 3,lao_Laoo,Lao,1012,131071,361720,157219,,5.691,0.834,,823
+qwen3,Qwen 3,Qwen 3,hin_Deva,Hindi,1012,132069,338084,122272,,4.426,1.08,,1059
+qwen3,Qwen 3,Qwen 3,vie_Latn,Vietnamese,1012,139606,184617,39653,,1.435,3.521,,3266
+qwen3,Qwen 3,Qwen 3,zho_Hans,Chinese (Simplified),1012,44259,121814,27762,,1.005,1.594,,4665
+deepseek3,DeepSeek V3,DeepSeek V3 / R1,eng_Latn,English,1012,132977,133107,27046,,1.0,4.917,,4789
+deepseek3,DeepSeek V3,DeepSeek V3 / R1,mya_Mymr,Burmese,1012,164180,466539,144243,49954,5.333,1.138,2.888,898
+deepseek3,DeepSeek V3,DeepSeek V3 / R1,tha_Thai,Thai,1012,127120,365868,48806,,1.805,2.605,,2654
+deepseek3,DeepSeek V3,DeepSeek V3 / R1,khm_Khmr,Khmer,1012,154223,436171,184591,,6.825,0.835,,701
+deepseek3,DeepSeek V3,DeepSeek V3 / R1,lao_Laoo,Lao,1012,131071,361720,215615,,7.972,0.608,,600
+deepseek3,DeepSeek V3,DeepSeek V3 / R1,hin_Deva,Hindi,1012,132069,338084,75583,,2.795,1.747,,1713
+deepseek3,DeepSeek V3,DeepSeek V3 / R1,vie_Latn,Vietnamese,1012,139606,184617,57290,,2.118,2.437,,2261
+deepseek3,DeepSeek V3,DeepSeek V3 / R1,zho_Hans,Chinese (Simplified),1012,44259,121814,25396,,0.939,1.743,,5100
+mistral-nemo,Mistral Tekken,Mistral Nemo and later,eng_Latn,English,1012,132977,133107,27832,,1.0,4.778,,4654
+mistral-nemo,Mistral Tekken,Mistral Nemo and later,mya_Mymr,Burmese,1012,164180,466539,90406,49954,3.248,1.816,1.81,1432
+mistral-nemo,Mistral Tekken,Mistral Nemo and later,tha_Thai,Thai,1012,127120,365868,66746,,2.398,1.905,,1940
+mistral-nemo,Mistral Tekken,Mistral Nemo and later,khm_Khmr,Khmer,1012,154223,436171,410161,,14.737,0.376,,315
+mistral-nemo,Mistral Tekken,Mistral Nemo and later,lao_Laoo,Lao,1012,131071,361720,352210,,12.655,0.372,,367
+mistral-nemo,Mistral Tekken,Mistral Nemo and later,hin_Deva,Hindi,1012,132069,338084,49995,,1.796,2.642,,2590
+mistral-nemo,Mistral Tekken,Mistral Nemo and later,vie_Latn,Vietnamese,1012,139606,184617,39808,,1.43,3.507,,3254
+mistral-nemo,Mistral Tekken,Mistral Nemo and later,zho_Hans,Chinese (Simplified),1012,44259,121814,39049,,1.403,1.133,,3317
+phi4,Phi-4 mini,Phi-4 mini,eng_Latn,English,1012,132977,133107,26878,,1.0,4.947,,4819
+phi4,Phi-4 mini,Phi-4 mini,mya_Mymr,Burmese,1012,164180,466539,85034,49954,3.164,1.931,1.702,1523
+phi4,Phi-4 mini,Phi-4 mini,tha_Thai,Thai,1012,127120,365868,53471,,1.989,2.377,,2422
+phi4,Phi-4 mini,Phi-4 mini,khm_Khmr,Khmer,1012,154223,436171,89681,,3.337,1.72,,1444
+phi4,Phi-4 mini,Phi-4 mini,lao_Laoo,Lao,1012,131071,361720,221144,,8.228,0.593,,585
+phi4,Phi-4 mini,Phi-4 mini,hin_Deva,Hindi,1012,132069,338084,42294,,1.574,3.123,,3062
+phi4,Phi-4 mini,Phi-4 mini,vie_Latn,Vietnamese,1012,139606,184617,40035,,1.49,3.487,,3235
+phi4,Phi-4 mini,Phi-4 mini,zho_Hans,Chinese (Simplified),1012,44259,121814,33581,,1.249,1.318,,3857
+nllb,NLLB-200,NLLB translation models (reference: trained for 200 languages),eng_Latn,English,1012,132977,133107,30641,,1.0,4.34,,4227
+nllb,NLLB-200,NLLB translation models (reference: trained for 200 languages),mya_Mymr,Burmese,1012,164180,466539,48473,49954,1.582,3.387,0.97,2672
+nllb,NLLB-200,NLLB translation models (reference: trained for 200 languages),tha_Thai,Thai,1012,127120,365868,46581,,1.52,2.729,,2780
+nllb,NLLB-200,NLLB translation models (reference: trained for 200 languages),khm_Khmr,Khmer,1012,154223,436171,54437,,1.777,2.833,,2379
+nllb,NLLB-200,NLLB translation models (reference: trained for 200 languages),lao_Laoo,Lao,1012,131071,361720,45092,,1.472,2.907,,2872
+nllb,NLLB-200,NLLB translation models (reference: trained for 200 languages),hin_Deva,Hindi,1012,132069,338084,37138,,1.212,3.556,,3487
+nllb,NLLB-200,NLLB translation models (reference: trained for 200 languages),vie_Latn,Vietnamese,1012,139606,184617,36169,,1.18,3.86,,3581
+nllb,NLLB-200,NLLB translation models (reference: trained for 200 languages),zho_Hans,Chinese (Simplified),1012,44259,121814,33478,,1.093,1.322,,3869
+claude-opus-5,Claude Opus 5,Claude Opus 5,eng_Latn,English,1012,132977,133107,42927,,1.0,3.098,,3017
+claude-opus-5,Claude Opus 5,Claude Opus 5,mya_Mymr,Burmese,1012,164180,466539,172929,49954,4.028,0.949,3.462,749
+claude-opus-5,Claude Opus 5,Claude Opus 5,tha_Thai,Thai,1012,127120,365868,113191,,2.637,1.123,,1144
+claude-opus-5,Claude Opus 5,Claude Opus 5,khm_Khmr,Khmer,1012,154223,436171,170354,,3.968,0.905,,760
+claude-opus-5,Claude Opus 5,Claude Opus 5,lao_Laoo,Lao,1012,131071,361720,170490,,3.972,0.769,,759
+claude-opus-5,Claude Opus 5,Claude Opus 5,hin_Deva,Hindi,1012,132069,338084,92725,,2.16,1.424,,1396
+claude-opus-5,Claude Opus 5,Claude Opus 5,vie_Latn,Vietnamese,1012,139606,184617,78015,,1.817,1.789,,1660
+claude-opus-5,Claude Opus 5,Claude Opus 5,zho_Hans,Chinese (Simplified),1012,44259,121814,48710,,1.135,0.909,,2659
+claude-sonnet-5,Claude Sonnet 5,Claude Sonnet 5,eng_Latn,English,1012,132977,133107,42927,,1.0,3.098,,3017
+claude-sonnet-5,Claude Sonnet 5,Claude Sonnet 5,mya_Mymr,Burmese,1012,164180,466539,172929,49954,4.028,0.949,3.462,749
+claude-sonnet-5,Claude Sonnet 5,Claude Sonnet 5,tha_Thai,Thai,1012,127120,365868,113191,,2.637,1.123,,1144
+claude-sonnet-5,Claude Sonnet 5,Claude Sonnet 5,khm_Khmr,Khmer,1012,154223,436171,170354,,3.968,0.905,,760
+claude-sonnet-5,Claude Sonnet 5,Claude Sonnet 5,lao_Laoo,Lao,1012,131071,361720,170490,,3.972,0.769,,759
+claude-sonnet-5,Claude Sonnet 5,Claude Sonnet 5,hin_Deva,Hindi,1012,132069,338084,92725,,2.16,1.424,,1396
+claude-sonnet-5,Claude Sonnet 5,Claude Sonnet 5,vie_Latn,Vietnamese,1012,139606,184617,78015,,1.817,1.789,,1660
+claude-sonnet-5,Claude Sonnet 5,Claude Sonnet 5,zho_Hans,Chinese (Simplified),1012,44259,121814,48710,,1.135,0.909,,2659
+claude-haiku-4-5,Claude Haiku 4.5,Claude Haiku 4.5,eng_Latn,English,1012,132977,133107,29894,,1.0,4.448,,4333
+claude-haiku-4-5,Claude Haiku 4.5,Claude Haiku 4.5,mya_Mymr,Burmese,1012,164180,466539,172181,49954,5.76,0.954,3.447,752
+claude-haiku-4-5,Claude Haiku 4.5,Claude Haiku 4.5,tha_Thai,Thai,1012,127120,365868,112807,,3.774,1.127,,1148
+claude-haiku-4-5,Claude Haiku 4.5,Claude Haiku 4.5,khm_Khmr,Khmer,1012,154223,436171,169068,,5.656,0.912,,766
+claude-haiku-4-5,Claude Haiku 4.5,Claude Haiku 4.5,lao_Laoo,Lao,1012,131071,361720,168959,,5.652,0.776,,766
+claude-haiku-4-5,Claude Haiku 4.5,Claude Haiku 4.5,hin_Deva,Hindi,1012,132069,338084,92649,,3.099,1.425,,1398
+claude-haiku-4-5,Claude Haiku 4.5,Claude Haiku 4.5,vie_Latn,Vietnamese,1012,139606,184617,71125,,2.379,1.963,,1821
+claude-haiku-4-5,Claude Haiku 4.5,Claude Haiku 4.5,zho_Hans,Chinese (Simplified),1012,44259,121814,48263,,1.614,0.917,,2683
+gpt-5,GPT-5,GPT-5,eng_Latn,English,1012,132977,133107,26878,,1.0,4.947,,4819
+gpt-5,GPT-5,GPT-5,mya_Mymr,Burmese,1012,164180,466539,85034,49954,3.164,1.931,1.702,1523
+gpt-5,GPT-5,GPT-5,tha_Thai,Thai,1012,127120,365868,53471,,1.989,2.377,,2422
+gpt-5,GPT-5,GPT-5,khm_Khmr,Khmer,1012,154223,436171,89681,,3.337,1.72,,1444
+gpt-5,GPT-5,GPT-5,lao_Laoo,Lao,1012,131071,361720,221144,,8.228,0.593,,585
+gpt-5,GPT-5,GPT-5,hin_Deva,Hindi,1012,132069,338084,42294,,1.574,3.123,,3062
+gpt-5,GPT-5,GPT-5,vie_Latn,Vietnamese,1012,139606,184617,40035,,1.49,3.487,,3235
+gpt-5,GPT-5,GPT-5,zho_Hans,Chinese (Simplified),1012,44259,121814,33581,,1.249,1.318,,3857
+gpt-5.5,GPT-5.5,GPT-5.5,eng_Latn,English,1012,132977,133107,26878,,1.0,4.947,,4819
+gpt-5.5,GPT-5.5,GPT-5.5,mya_Mymr,Burmese,1012,164180,466539,85034,49954,3.164,1.931,1.702,1523
+gpt-5.5,GPT-5.5,GPT-5.5,tha_Thai,Thai,1012,127120,365868,53471,,1.989,2.377,,2422
+gpt-5.5,GPT-5.5,GPT-5.5,khm_Khmr,Khmer,1012,154223,436171,89681,,3.337,1.72,,1444
+gpt-5.5,GPT-5.5,GPT-5.5,lao_Laoo,Lao,1012,131071,361720,221144,,8.228,0.593,,585
+gpt-5.5,GPT-5.5,GPT-5.5,hin_Deva,Hindi,1012,132069,338084,42294,,1.574,3.123,,3062
+gpt-5.5,GPT-5.5,GPT-5.5,vie_Latn,Vietnamese,1012,139606,184617,40035,,1.49,3.487,,3235
+gpt-5.5,GPT-5.5,GPT-5.5,zho_Hans,Chinese (Simplified),1012,44259,121814,33581,,1.249,1.318,,3857
+gpt-6-sol,GPT-6 Sol,GPT-6 Sol,eng_Latn,English,1012,132977,133107,26878,,1.0,4.947,,4819
+gpt-6-sol,GPT-6 Sol,GPT-6 Sol,mya_Mymr,Burmese,1012,164180,466539,85034,49954,3.164,1.931,1.702,1523
+gpt-6-sol,GPT-6 Sol,GPT-6 Sol,tha_Thai,Thai,1012,127120,365868,53471,,1.989,2.377,,2422
+gpt-6-sol,GPT-6 Sol,GPT-6 Sol,khm_Khmr,Khmer,1012,154223,436171,89681,,3.337,1.72,,1444
+gpt-6-sol,GPT-6 Sol,GPT-6 Sol,lao_Laoo,Lao,1012,131071,361720,221144,,8.228,0.593,,585
+gpt-6-sol,GPT-6 Sol,GPT-6 Sol,hin_Deva,Hindi,1012,132069,338084,42294,,1.574,3.123,,3062
+gpt-6-sol,GPT-6 Sol,GPT-6 Sol,vie_Latn,Vietnamese,1012,139606,184617,40035,,1.49,3.487,,3235
+gpt-6-sol,GPT-6 Sol,GPT-6 Sol,zho_Hans,Chinese (Simplified),1012,44259,121814,33581,,1.249,1.318,,3857
+gemini-2.5-flash,Gemini 2.5 Flash,Gemini 2.5,eng_Latn,English,1012,132977,133107,28125,,1.0,4.728,,4605
+gemini-2.5-flash,Gemini 2.5 Flash,Gemini 2.5,mya_Mymr,Burmese,1012,164180,466539,66306,49954,2.358,2.476,1.327,1953
+gemini-2.5-flash,Gemini 2.5 Flash,Gemini 2.5,tha_Thai,Thai,1012,127120,365868,44404,,1.579,2.863,,2917
+gemini-2.5-flash,Gemini 2.5 Flash,Gemini 2.5,khm_Khmr,Khmer,1012,154223,436171,75135,,2.671,2.053,,1724
+gemini-2.5-flash,Gemini 2.5 Flash,Gemini 2.5,lao_Laoo,Lao,1012,131071,361720,72014,,2.56,1.82,,1798
+gemini-2.5-flash,Gemini 2.5 Flash,Gemini 2.5,hin_Deva,Hindi,1012,132069,338084,36532,,1.299,3.615,,3545
+gemini-2.5-flash,Gemini 2.5 Flash,Gemini 2.5,vie_Latn,Vietnamese,1012,139606,184617,38200,,1.358,3.655,,3390
+gemini-2.5-flash,Gemini 2.5 Flash,Gemini 2.5,zho_Hans,Chinese (Simplified),1012,44259,121814,30251,,1.076,1.463,,4282
+gemini-3.8-flash,Gemini 3.8 Flash,Gemini 3.8,eng_Latn,English,1012,132977,133107,28125,,1.0,4.728,,4605
+gemini-3.8-flash,Gemini 3.8 Flash,Gemini 3.8,mya_Mymr,Burmese,1012,164180,466539,66306,49954,2.358,2.476,1.327,1953
+gemini-3.8-flash,Gemini 3.8 Flash,Gemini 3.8,tha_Thai,Thai,1012,127120,365868,44404,,1.579,2.863,,2917
+gemini-3.8-flash,Gemini 3.8 Flash,Gemini 3.8,khm_Khmr,Khmer,1012,154223,436171,75135,,2.671,2.053,,1724
+gemini-3.8-flash,Gemini 3.8 Flash,Gemini 3.8,lao_Laoo,Lao,1012,131071,361720,72014,,2.56,1.82,,1798
+gemini-3.8-flash,Gemini 3.8 Flash,Gemini 3.8,hin_Deva,Hindi,1012,132069,338084,36532,,1.299,3.615,,3545
+gemini-3.8-flash,Gemini 3.8 Flash,Gemini 3.8,vie_Latn,Vietnamese,1012,139606,184617,38200,,1.358,3.655,,3390
+gemini-3.8-flash,Gemini 3.8 Flash,Gemini 3.8,zho_Hans,Chinese (Simplified),1012,44259,121814,30251,,1.076,1.463,,4282

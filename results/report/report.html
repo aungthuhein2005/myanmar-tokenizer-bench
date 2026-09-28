@@ -1,0 +1,125 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="author" content="Aung Thu Hein"><title>Burmese pays more than its neighbours</title>
+<style>
+@page { size: A4; margin: 16mm 16mm 18mm; }
+* { box-sizing: border-box; }
+body { margin: 0; color: #1c1917; font: 10pt/1.55 "Segoe UI", "Helvetica Neue", Arial, "Myanmar Text", "Noto Sans Myanmar", sans-serif; }
+.my { font-family: "Myanmar Text", "Noto Sans Myanmar", sans-serif; line-height: 1.9; }
+.kicker { font-size: 8.5pt; letter-spacing: .08em; text-transform: uppercase; color: #0b6b63; font-weight: 700; }
+h1 { font-size: 27pt; line-height: 1.12; margin: 6pt 0 8pt; letter-spacing: -.01em; }
+.dek { font-size: 12pt; color: #44403c; margin: 0 0 14pt; max-width: 150mm; }
+h2 { font-size: 14pt; margin: 18pt 0 4pt; color: #0b0b0b; break-after: avoid; }
+h3 { font-size: 10.5pt; margin: 12pt 0 2pt; break-after: avoid; }
+p { margin: 0 0 7pt; }
+.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8pt; margin: 4pt 0 10pt; }
+.tile { border: 1px solid #e7e2da; border-radius: 8pt; padding: 9pt 11pt; background: #faf8f5; }
+.tile .v { font-size: 22pt; font-weight: 700; color: #0b6b63; line-height: 1.1; }
+.byline { font-size: 9.5pt; color: #57534e; margin: 0 0 10pt; }
+.byline b { color: #1c1917; font-weight: 600; }
+.tile .l { font-size: 8.5pt; color: #57534e; line-height: 1.35; margin-top: 3pt; }
+figure { margin: 6pt 0 10pt; break-inside: avoid; }
+figure img { width: 100%; display: block; }
+figcaption { font-size: 8.5pt; color: #6b6660; margin-top: 3pt; }
+.fig-title { font-weight: 700; font-size: 10.5pt; margin-bottom: 1pt; }
+.fig-sub { font-size: 8.5pt; color: #6b6660; margin-bottom: 4pt; }
+.callout { border-left: 3pt solid #f8b82d; background: #fdf6e3; padding: 7pt 11pt; border-radius: 0 6pt 6pt 0; margin: 8pt 0 10pt; }
+table { border-collapse: collapse; width: 100%; font-size: 9pt; margin: 4pt 0 10pt; break-inside: avoid; }
+th, td { padding: 4pt 6pt; border-bottom: 1px solid #ebe7e0; text-align: left; }
+th { font-weight: 600; color: #57534e; font-size: 8.5pt; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+ul { margin: 0 0 8pt; padding-left: 14pt; } li { margin: 2pt 0; }
+.page { break-before: page; }
+.small { font-size: 8.5pt; color: #57534e; }
+code { font-family: Consolas, monospace; font-size: 8.8pt; background: #f3f0eb; padding: 0 3pt; border-radius: 3pt; }
+</style></head><body>
+
+<div class="kicker">myanmar-tokenizer-bench · Report · September 2026</div>
+<h1>Burmese pays more than its neighbours</h1>
+<p class="byline">By <b>Aung Thu Hein</b> · 29 September 2026</p>
+<p class="dek">AI models charge by the token. We counted how many tokens 10 tokenizers, used by GPT, Claude,
+Gemini, Llama, Qwen and others, need for the same 1,012 sentences in English, Burmese and six other Asian languages.</p>
+
+<div class="tiles">
+  <div class="tile"><div class="v">2.3×</div><div class="l">Burmese costs this much more than Thai for the same meaning, on average (it's costlier with all 10 tokenizers)</div></div>
+  <div class="tile"><div class="v">5 of 10</div><div class="l">tokenizers make Burmese the most expensive of all seven languages tested</div></div>
+  <div class="tile"><div class="v">11.7×</div><div class="l">English, the worst case (Llama 3), close to one token per byte of text</div></div>
+</div>
+
+<figure>
+  <div class="fig-title">Median token cost relative to English</div>
+  <div class="fig-sub">Tokens for the same 1,012 FLORES-200 sentences ÷ tokens for English, median of 10 distinct tokenizers</div>
+  <img src="median.png" alt="Median token cost by language: Lao 6.8×, Khmer 6.1×, Burmese 4.7×, Hindi 2.3×, Thai 2.3×, Vietnamese 1.5×, Chinese (Simplified) 1.2×">
+</figure>
+
+<p>Across the region, Burmese sits in the expensive group. With the typical tokenizer it needs
+<b>4.7×</b> the tokens of English, twice Thai (2.3×) and Hindi (2.3×), and far
+more than Vietnamese (1.5×) or Chinese (1.2×).
+It is costlier than Thai, Hindi, Vietnamese and Chinese with <b>every</b> tokenizer we tested.</p>
+
+<div class="callout"><b>One honest caveat.</b> Burmese isn't the only language paying this tax. Lao
+(6.8×) and Khmer (6.1×) have even higher medians, and Burmese beats them with only
+6 and 5 of 10 tokenizers respectively. The pattern is about <i>scripts with little
+training data</i>, and Burmese is one of the hardest hit.</div>
+
+<div class="page"></div>
+<h2>Burmese vs Thai: same region, very different bills</h2>
+<p>Thai is the fairest comparison: a Southeast Asian language with its own script and no spaces between words,
+just like Burmese. Yet every tokenizer is kinder to Thai, and the gap is widest for older and English- or
+Chinese-centred vocabularies: with Llama 3, Burmese costs <b>5.3×</b>
+as much as Thai; with Qwen 3, <b>3.5×</b>. Only NLLB-200, a translation
+model built for 200 languages, treats the two almost equally.</p>
+<figure>
+  <div class="fig-title">Tokens relative to English, Burmese vs Thai</div>
+  <div class="fig-sub">Each row is one tokenizer; the label on the right shows how many times more Burmese costs than Thai</div>
+  <img src="dumbbell.png" alt="Dumbbell chart comparing Burmese and Thai token cost for each tokenizer">
+</figure>
+
+<h2>All languages, all tokenizers</h2>
+<figure>
+  <div class="fig-sub">Tokens relative to English (1.0 = same as English). Darker = more expensive. Burmese column outlined.</div>
+  <img src="heatmap.png" alt="Heatmap of token cost relative to English for each tokenizer and language">
+</figure>
+
+<div class="page"></div>
+<h2>What it means for the bill</h2>
+<p>The multiplier compares a tokenizer with itself. To compare <b>providers</b>, count the absolute tokens for the
+same text: that's what you pay for (times each provider's price per token).</p>
+<figure>
+  <div class="fig-title">Tokens for the same 1,012 sentences</div>
+  <div class="fig-sub">Thousands of tokens, English vs Burmese, for the three major API providers' current tokenizers</div>
+  <img src="providers.png" alt="Bar chart of English and Burmese token counts for Gemini, GPT and Claude">
+</figure>
+<table><tr><th>Tokenizer</th><th class="n">English tokens</th><th class="n">Burmese tokens</th><th class="n">Burmese ÷ English</th></tr><tr><td>Gemini / Gemma 3</td><td class='n'>28,125</td><td class='n'><b>66,306</b></td><td class='n'>2.4×</td></tr><tr><td>GPT-4o to GPT-6 (o200k)</td><td class='n'>26,878</td><td class='n'><b>85,034</b></td><td class='n'>3.2×</td></tr><tr><td>Claude Haiku 4.5</td><td class='n'>29,894</td><td class='n'><b>172,181</b></td><td class='n'>5.8×</td></tr><tr><td>Claude Opus 5 / Sonnet 5</td><td class='n'>42,927</td><td class='n'><b>172,929</b></td><td class='n'>4.0×</td></tr></table>
+<p>Gemini needs the fewest tokens for Burmese. Claude needs about <b>2.0×</b>
+as many as GPT and <b>2.6×</b> as many as Gemini. Claude's newer
+tokenizer (Opus 5 / Sonnet 5) shows a lower multiplier than Haiku 4.5 only because it uses more tokens for English; for
+Burmese the two are almost identical.</p>
+
+<h2>Why it happens</h2>
+<p>Tokenizers learn their vocabulary from training data that is mostly English, code and a few large languages. A
+script that is rare in that data gets few dedicated tokens, so its text is split into small fragments, down to raw
+UTF-8 bytes. Each Burmese character takes 3 bytes, so byte-level fallback is especially costly. The word
+<span class="my">မြန်မာ</span> ("Myanmar"), 6 characters and 18 bytes, needs:</p>
+<table><tr><th>Tokenizer</th><th class='n'>GPT-4 (cl100k)</th><th class='n'>Qwen 3</th><th class='n'>GPT-4o to GPT-6</th><th class='n'>Gemini / Gemma 3</th><th class='n'>NLLB-200</th></tr><tr><td>Tokens for <span class="my">မြန်မာ</span></td><td class='n'><b>12</b></td><td class='n'><b>9</b></td><td class='n'><b>3</b></td><td class='n'><b>3</b></td><td class='n'><b>1</b></td></tr></table>
+
+<h2>What Burmese developers can do</h2>
+<ul>
+  <li><b>Pick the tokenizer, not just the model.</b> For Burmese-heavy workloads, Gemini / Gemma 3 needs
+  2.4× English against 11.7× for Llama 3. That gap is money, latency and context.</li>
+  <li><b>Budget context in Burmese tokens.</b> A 128K window holds roughly 408
+  Burmese sentences with Llama 3, against 4,766 in English.</li>
+  <li><b>Chunk by syllables, not characters,</b> when building retrieval systems, so chunks stay even in meaning
+  (see <i>Burmese RAG</i>).</li>
+  <li><b>Measure your own text.</b> Run <code>mtb run --corpus your_folder/</code> on your real documents.</li>
+</ul>
+
+<h2>Method and limitations</h2>
+<p class="small">Data: FLORES-200 devtest (1,012 sentences from Wikinews, Wikijunior and Wikivoyage, professionally translated;
+CC BY-SA 4.0). Each language's sentences are joined by newlines and tokenized without special tokens. The multiplier is
+tokens(language) ÷ tokens(English) for the same tokenizer. Models whose counts are identical in every language share a
+tokenizer and are counted once (10 distinct tokenizers): GPT-5, GPT-5.5, GPT-6 Sol and Phi-4 mini match o200k;
+Gemini 2.5 and 3.8 Flash match Gemma 3; Claude Sonnet 5 matches Opus 5. Claude, GPT-5+ and Gemini were counted with their
+official token-counting APIs, with the fixed message framing subtracted; Llama 3, Gemma 3 and Mistral tokenizers come from
+public mirrors of the official files. Limitations: news and wiki text only; Unicode Burmese only (Zawgyi not measured);
+token efficiency is not answer quality; provider tokenizers can change with new models. Run date: 2026-09-29.</p>
+<p class="small">Code and full data: <b>github.com/aungthuhein2005/myanmar-tokenizer-bench</b> (MIT).</p>
+</body></html>
