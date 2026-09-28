@@ -1,4 +1,4 @@
-# 🇲🇲 myanmar-tokenizer-bench
+# Burmese pyas more than its neighbours
 
 **How many tokens do AI models spend on Burmese?**
 
@@ -50,8 +50,6 @@ A lower number means cheaper, faster and more room in the context window, but **
 measure answer quality.** A tokenizer can be efficient and the model can still write poor Burmese.
 
 ## Full results
-
-
 
 *Dataset: FLORES-200 devtest · 1012 parallel sentences · run 2026-09-29*
 
@@ -105,8 +103,6 @@ Identical counts in every language, so these share one tokenizer: OpenAI o200k =
 | Qwen 3           | **8.96×**  | 2.58× | 6.50×  | 5.69×  | 4.43× | 1.44×      | 1.00×                |
 | OpenAI cl100k    | **11.65×** | 4.38× | 8.75×  | 9.54×  | 4.77× | 2.44×      | 1.87×                |
 | Llama 3          | **11.65×** | 2.21× | 8.75×  | 8.79×  | 2.52× | 1.39×      | 1.28×                |
-
-
 
 
 Raw numbers: `[results/results.csv](results/results.csv)` · `[results/results.json](results/results.json)`
